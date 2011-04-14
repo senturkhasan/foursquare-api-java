@@ -1,0 +1,9 @@
+#summary Sample code for authenticating FoursquareApi client
+
+= API credentials =
+
+In order to use FoursquareApi you need API credentials. You can get these credentials by registering your client to Foursquare at https://foursquare.com/oauth/.
+
+= Code example =
+
+TODO
