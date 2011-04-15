@@ -4,7 +4,7 @@
 
 Some operation require that user has been authenticated with the Foursquare. Foursquare uses OAuth 2.0 to do that. 
 
-Note that you can save OAuthToken in database for the user and do not need to request it every time user accesses Foursquare.  
+_*Note* that you can save OAuthToken in database for the user and do not need to request it every time user accesses Foursquare._  
 
 === API credentials === 
 
