@@ -1,10 +1,16 @@
 #summary Sample code for authenticating FoursquareApi client
 
-= API credentials =
+=== Introduction ===
+
+Some operation require that user has been authenticated with the Foursquare. Foursquare uses OAuth 2.0 to do that. 
+
+Note that you can save OAuthToken in database for the user and do not need to request it every time user accesses Foursquare.  
+
+=== API credentials === 
 
 In order to use FoursquareApi you need API credentials. You can get these credentials by registering your client to Foursquare at https://foursquare.com/oauth/.
 
-= Code example =
+=== Code example ===
 
 {{{
 
