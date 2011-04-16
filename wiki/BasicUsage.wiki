@@ -1,4 +1,5 @@
 #summary Sample code for basic usage
+#labels Featured
 
 === Introduction ===
 
