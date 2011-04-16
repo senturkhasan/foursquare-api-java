@@ -4,7 +4,7 @@
 
 This example describes how to do a basic query to Foursquare. 
 
-_*Note* that some opearations need user to be authenticated with the Foursquare. More from that subject in [AuthenticationExample] page_   
+_*Note* that some operations need user to be authenticated with the Foursquare. More from that subject in [AuthenticationExample] page_   
 
 === Code example ===
 
