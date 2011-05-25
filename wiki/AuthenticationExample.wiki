@@ -1,5 +1,5 @@
 #summary Sample code for authenticating FoursquareApi client
-#labels Featured
+#labels Featured,Phase-Implementation
 
 === Introduction ===
 
