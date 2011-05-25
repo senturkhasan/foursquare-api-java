@@ -1,4 +1,5 @@
 #summary Using Maven repository
+#labels Featured
 
 =Maven=
 
