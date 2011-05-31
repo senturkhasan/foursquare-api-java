@@ -59,7 +59,7 @@ Version 0.1.4
   * Added authentication system 
   * Changed IOHandler's thrown exception to IOException
 
-Version 0.13 (old versioning numbering)
+Version 0.13 (old version numbering)
   
   * Changed FoursquareEntity class into interface 
   * Changed FoursquareEntity interface to inherit from Serializable
@@ -70,7 +70,7 @@ Version 0.13 (old versioning numbering)
   * Added new UserGroup and CompleteTip entities
   * Added missing FoursquareEntity super class into Comment, CompactTip, Source and Todo classes
 
-Version 0.11 (old versioning numbering)
+Version 0.11 (old version numbering)
 
   * Moved stats from CompleteVenue to CompactVenue entity
   * Added new Mayor, Photos and Tips entities 
@@ -79,7 +79,7 @@ Version 0.11 (old versioning numbering)
   * Changed PhotoGroup to Photos entity in CompleteVenue
   * Changed tips property from TipGroup to in Tips in CompleteVenue
 
-Version 0.1 (old versioning numbering)
+Version 0.1 (old version numbering)
 
   * Initial release
   * Basic functionality
