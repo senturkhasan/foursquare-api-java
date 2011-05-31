@@ -9,7 +9,7 @@ Version 0.2.0
   * Support for settings/set end point (Issue #22)
   * Support for users/checkins end point (Issue #28)
   * Support for checkins/ID end point (Issue #45)
-  * Support for checkins/recent end point (Issue #33)
+  * Support for checkins/recent end point (Issue #13)
   * Support for users/request end point (Issue #32)
   * Support for users/unfriend end point (Issue #33)
   * Support for users/approve end point (Issue #34)
