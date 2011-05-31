@@ -1,7 +1,7 @@
 #summary Changelog
 #labels Featured
 
-Version 0.1.7-SNAPSHOT
+Version 0.2.0
 
   * Support for specials/ID end point (Issue #23)
   * Support for specials/search end point (Issue #24)
