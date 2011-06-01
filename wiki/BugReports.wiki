@@ -21,7 +21,7 @@ _Contains:_
 
 _*Example of a Awesome bug report:*_
 
-venuesSearch method crashesh in FoursquareApi class when using unicode characters in query. For example:
+venuesSearch method crashes in FoursquareApi class when using unicode characters in query. For example:
 
 {{{
   foursquareApi.venuesSearch("30,30", null, null, null, "テスト", null, null);
@@ -64,7 +64,7 @@ venuesSearch in FoursquareApi class fails when using unicode characters in query
 ==Invalid bug report==
 
 _Contains:_
-  * Does not contain detailed description of the problem
+  * Does not contain a detailed description of the problem
 
 _*Example of a Invalid bug report:*_
 
