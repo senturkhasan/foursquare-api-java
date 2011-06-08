@@ -1,6 +1,24 @@
 #summary Changelog
 #labels Featured
 
+Version 0.3.0
+
+  * Refactored all API calls to return Result objects (Issue #48 and Issue #49) 
+  * Added support for Notifications (Issue #48)
+  * Added classes for Badge, Leaderboard, Mayorship, Message, Score, Tip and TipAlert notification types (Issue #48)
+  * Changed API requests to return more detailed information about failures in ResultMeta object (Issue #49)
+  * Changed API requests to return null results instead of crashing (Issue #49)
+  * Removed IOException throwing from IOHandler (Issue #49)
+  * Added support for using JSON callback syntax in API requests (Issue #49)
+  * Added support for passing version parameter
+  * Renamed CompleteTodos entity into Todos
+  * Moved tips and todos from CompleteVenue to CompactVenue
+  * Added Badge, BadgeImage, LeaderBoardItem and LeaderboardScore entities
+  * Changed usersCheckins method's userId parameter to default to self 
+  * Fixed bug in venuesAdd method that prevented method from working (threw class cast exception) 
+  * Fixed bug in usersRequests method that prevented it from working (wrong field name in result parsing)
+  * Deprecated Google App Engine support library because DefaultIOHandler seems to work fine with GAE nowadays
+
 Version 0.2.0
 
   * Support for specials/ID end point (Issue #23)
