@@ -1,6 +1,25 @@
 #summary Changelog
 #labels Featured
 
+Version 0.4.0
+
+  * Implementation for all api calls involved in Foursquare Venues Project (Issue #52)
+  * Added UserGroups entity  
+  * Added Link, LinkProvider and LinkGroup entities
+  * Added Keyword, KeywordGroup, Reason, ReasonGroup, Recommendation, RecommendationGroup, Warning and Recommended entities
+  * Merged FriendGroup entity into UserGroup entity
+  * Merged FriendGroups entity into UserGroups entity 
+  * Added venue property into Photo entity
+  * Added type property to UserGroup
+  * Changed CompactTip entity's todo and done fields from UserGroup to UserGroups 
+  * Support for venues/flag end point (Issue #43)
+  * Support for venues/links end point (Issue #41)
+  * Support for venues/herenow end point (Issue #38)
+  * Support for venues/explore end point (Issue #37)
+  * Support for photos/ID end point (Issue #19) 
+  * Support for tips/ID end point (Issue #16)
+  * Support for venues/proposeedit end-point (Issue #44)
+
 Version 0.3.0
 
   * Refactored all API calls to return Result objects (Issue #48 and Issue #49) 
