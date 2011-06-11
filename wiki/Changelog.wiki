@@ -1,6 +1,28 @@
 #summary Changelog
 #labels Featured
 
+Version 0.5.0
+ 
+  * Support for users/setpings end point (Issue #36)
+  * Support for users/todos end point (Issue #30)
+  * Support for users/venuehistory end point ( Issue #31 )
+  * Support for users/tips end point (Issue #29)
+  * Support for users/badges end point (Issue #27)
+  * Support for users/leaderboard end point (Issue #26)
+  * Support for tips/marktodo end point (Issue #25)
+  * Support for tips/add end point (Issue #17)
+  * Renamed Todos entity into TodoGroup 
+  * Changed TodoGroup to inherit from Group
+  * Changed Todo entity's tip property from String to CompleteTip
+  * Changed unlocks property from Checkin array to BadgeUnlock array in Badge entity 
+  * Added isMayor property to Checkin entity 
+  * Added hint property to Badge entity 
+  * Moved todo and done properties from CompactTip to CompleteTip 
+  * Changed TipNotification, TipAlertNotification, Photo, Recommendation and TipGroup to use CompleteTip instead of CompactTip
+  * Added VenueHistory and VenueHistoryGroup entities 
+  * Added Badges, BadgeSet, BadgeSets and BadgeUnlock entities
+  * Added LeaderboaderItemGroup entity 
+
 Version 0.4.0
 
   * Implementation for all api calls involved in Foursquare Venues Project (Issue #52)
