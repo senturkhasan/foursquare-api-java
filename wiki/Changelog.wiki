@@ -1,16 +1,32 @@
 #summary Changelog
 #labels Featured
 
+Version 0.6.0
+
+  * Support for tips/unmark endpoint (Issue #47)
+  * Support for tips/markdone endpoint (Issue #46)
+  * Support for venues/photos endpoint (Issue #40)
+  * Support for venues/marktodo endpoint (Issue #42)
+  * Support for venues/tips endpoint (Issue #39)
+  * Support for photos/add endpoint (Issue #20)
+  * Support for tips/search endpoint (Issue #18)
+  * Support for checkins/deletecomment endpoint (Issue #15)
+  * Support for checkins/addcomment endpoint (Issue #14)
+  * Added experimental parameters (categoryId, url, providerId and linkedId) into venues/search endpoint handler 
+  * Added photourl property into CompactTip entity
+  * Added fetchDataMultipartMime method to IOHandler interface. Method is used for sending multipart data along with api request
+  * Added MultipartParameter class to represent multipart parameters 
+
 Version 0.5.0
  
-  * Support for users/setpings end point (Issue #36)
-  * Support for users/todos end point (Issue #30)
-  * Support for users/venuehistory end point ( Issue #31 )
-  * Support for users/tips end point (Issue #29)
-  * Support for users/badges end point (Issue #27)
-  * Support for users/leaderboard end point (Issue #26)
-  * Support for tips/marktodo end point (Issue #25)
-  * Support for tips/add end point (Issue #17)
+  * Support for users/setpings endpoint (Issue #36)
+  * Support for users/todos endpoint (Issue #30)
+  * Support for users/venuehistory endpoint ( Issue #31 )
+  * Support for users/tips endpoint (Issue #29)
+  * Support for users/badges endpoint (Issue #27)
+  * Support for users/leaderboard endpoint (Issue #26)
+  * Support for tips/marktodo endpoint (Issue #25)
+  * Support for tips/add endpoint (Issue #17)
   * Renamed Todos entity into TodoGroup 
   * Changed TodoGroup to inherit from Group
   * Changed Todo entity's tip property from String to CompleteTip
@@ -34,12 +50,12 @@ Version 0.4.0
   * Added venue property into Photo entity
   * Added type property to UserGroup
   * Changed CompactTip entity's todo and done fields from UserGroup to UserGroups 
-  * Support for venues/flag end point (Issue #43)
-  * Support for venues/links end point (Issue #41)
-  * Support for venues/herenow end point (Issue #38)
-  * Support for venues/explore end point (Issue #37)
-  * Support for photos/ID end point (Issue #19) 
-  * Support for tips/ID end point (Issue #16)
+  * Support for venues/flag endpoint (Issue #43)
+  * Support for venues/links endpoint (Issue #41)
+  * Support for venues/herenow endpoint (Issue #38)
+  * Support for venues/explore endpoint (Issue #37)
+  * Support for photos/ID endpoint (Issue #19) 
+  * Support for tips/ID endpoint (Issue #16)
   * Support for venues/proposeedit end-point (Issue #44)
 
 Version 0.3.0
@@ -62,17 +78,17 @@ Version 0.3.0
 
 Version 0.2.0
 
-  * Support for specials/ID end point (Issue #23)
-  * Support for specials/search end point (Issue #24)
-  * Support for settings/all end point (Issue #21)
-  * Support for settings/set end point (Issue #22)
-  * Support for users/checkins end point (Issue #28)
-  * Support for checkins/ID end point (Issue #45)
-  * Support for checkins/recent end point (Issue #13)
-  * Support for users/request end point (Issue #32)
-  * Support for users/unfriend end point (Issue #33)
-  * Support for users/approve end point (Issue #34)
-  * Support for users/deny end point (Issue #35)
+  * Support for specials/ID endpoint (Issue #23)
+  * Support for specials/search endpoint (Issue #24)
+  * Support for settings/all endpoint (Issue #21)
+  * Support for settings/set endpoint (Issue #22)
+  * Support for users/checkins endpoint (Issue #28)
+  * Support for checkins/ID endpoint (Issue #45)
+  * Support for checkins/recent endpoint (Issue #13)
+  * Support for users/request endpoint (Issue #32)
+  * Support for users/unfriend endpoint (Issue #33)
+  * Support for users/approve endpoint (Issue #34)
+  * Support for users/deny endpoint (Issue #35)
   * Added FriendGroup, FriendGroups and Scores entities 
   * Added friends, following and scores properties into CompleteUser entity
   * Added name property into Location entity
@@ -114,7 +130,7 @@ Version 0.1.4
   * Maven support
   * Added oAuthToken parameter to FoursquareApi constructor 
   * Added setoAuthToken method to FoursquareApi class
-  * Support for users/friends end point (Thanks to Gutzeit)
+  * Support for users/friends endpoint (Thanks to Gutzeit)
   * Added authentication system 
   * Changed IOHandler's thrown exception to IOException
 
@@ -144,7 +160,7 @@ Version 0.1 (old version numbering)
   * Basic functionality
   * Initial entity model
   * Default IO Handler
-  * Support for following end points 
+  * Support for following endpoints 
     * users/ID
     * users/search
     * users/requests
