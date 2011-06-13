@@ -1,6 +1,11 @@
 #summary Changelog
 #labels Featured
 
+Version 1.0.0-RC1
+ 
+  * Added missing Javadocs
+  * Minor code cleanup 
+
 Version 0.6.0
 
   * Support for tips/unmark endpoint (Issue #47)
