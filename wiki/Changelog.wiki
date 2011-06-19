@@ -1,6 +1,11 @@
 #summary Changelog
 #labels Featured
 
+Version 1.0.0-RC2
+
+  * Changed default version into 20110615 
+  * Changed venuesSearch method to return VenuesSearchResult instead of VenueGroup array
+
 Version 1.0.0-RC1
  
   * Added missing Javadocs
