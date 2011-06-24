@@ -1,5 +1,5 @@
-#summary project dependencies
-
+#summary Project dependencies
+#labels Featured
 
 == Project dependencies ==
 
