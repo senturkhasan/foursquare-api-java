@@ -1,6 +1,20 @@
 #summary Changelog
 #labels Featured
 
+Version 1.0.2-SNAPSHOT
+
+  * Added support for search venue by name of a place
+
+Version 1.0.1
+
+  * Moved the source for the java code, gae code and tests to the correct maven format (src/main/java, src/main/test)
+  * Updated unit tests to read the test data files from the classpath 
+  * moved tests/gae code under main repo
+
+TODO:
+   * fix the svn format. Right now the main code is not under trunk :(
+
+
 Version 1.0.0-RC2
 
   * Changed default version into 20110615 
