@@ -1,8 +1,8 @@
 #summary Changelog
 #labels Featured
 
-Version 1.0.2-SNAPSHOT
-
+Version 1.0.2
+  * Moved source to trunk in svn
   * Added support for search venue by name of a place
 
 Version 1.0.1
